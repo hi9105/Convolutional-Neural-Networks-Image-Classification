@@ -13,7 +13,7 @@
 
 ### Overview <a name="overview"></a>
 
-This project uses Convolutional Neural Networks (CNNs)! In this project, I have build a pipeline to process real-world, user-supplied images. Given an image of a dog, my algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed. The goal is to classify images of dogs according to their breed.
+This project uses Convolutional Neural Networks (CNNs)! In this project, I have build a pipeline to process real-world, user-supplied images. Given an image of a dog, my algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed. The goal is to classify images of dogs according to their breed. The algorithm that detects humans in an image is different from the CNN that infers dog breed.
 
 ### Installation <a name="installation"></a>
 
