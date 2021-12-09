@@ -28,7 +28,9 @@ A requirements file is also available for reference.
 4. There are 835 validation dog images.
 5. There are 836 test dog images.
 
-There is 1 notebook available here to showcase work related. The notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title. Markdown cells were used to assist in walking through the thought process for individual steps.  
+There is 1 notebook available here to showcase work related. The notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title. Markdown cells were used to assist in walking through the thought process for individual steps.
+
+The file "Report.pdf" contains project full report.
 
 ### Results<a name="results"></a>
 
@@ -36,7 +38,7 @@ There is 1 notebook available here to showcase work related. The notebooks is ex
 
 The best model gives approx. 79% of accuracy. It performs well on almost all dog images. The outputs for human images are also convincing.
 
-The main findings of the code can be found at the post available [here](https://medium.com/@Shiv_Shiv/check-out-your-face-resembles-which-dog-breed-a49caaae42).
+The main findings of the code can be found at the post available at [Medium blog post](https://medium.com/@Shiv_Shiv/check-out-your-face-resembles-which-dog-breed-a49caaae42).
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
