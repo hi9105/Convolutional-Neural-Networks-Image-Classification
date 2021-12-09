@@ -5,9 +5,8 @@
 ## Table of Contents
 
 1. [Overview](#overview)
-1. [Installation](#installation)
-2. [Project Motivation](#motivation)
-3. [File Descriptions](#files)
+2. [Installation](#installation)
+3. [Dataset Description](#files)
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
@@ -17,39 +16,28 @@ This project uses Convolutional Neural Networks (CNNs)! In this project, I have 
 
 ### Installation <a name="installation"></a>
 
-This project requires Python and libraries used in Data Science and Deep Learning such as:
+There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python. The code should run with no issues using Python versions 3.*. 
 
-1. numpy
-2. pandas
-3. matplotlib
-4. scikit-learn
-5. keras
+A requirements file is also available for reference.
 
-To easily check the code at the same time as the output, it is recommended to install Anaconda and Jupyter Notebook. To speed up training time, it is highly recommended to use GPU.
+### Dataset Description <a name="files"></a>
 
-### Project Motivation<a name="motivation"></a>
+1. There are 133 total dog categories.
+2. There are 8351 total dog images.
+3. There are 6680 training dog images.
+4. There are 835 validation dog images.
+5. There are 836 test dog images.
 
-For this project, I was interestested in using Stack Overflow data from 2020 to better understand:
-
-1. What are the most wanted languages for next year 2021 ?
-2. How is total compensation (USD) correlate to developer type ?
-3. Which country has the highest average total compensation (USD) ?
-4. How well can we predict an individual's age ? What aspects correlate well to age ?
-
-The full set of files related to this course are publicly available here. You can see whole analysis here.
-
-### File Descriptions <a name="files"></a>
-
-There is 1 notebook available here to showcase work related to the above questions. The notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title. Markdown cells were used to assist in walking through the thought process for individual steps.  
+There is 1 notebook available here to showcase work related. The notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title. Markdown cells were used to assist in walking through the thought process for individual steps.  
 
 ### Results<a name="results"></a>
 
 ![image](https://user-images.githubusercontent.com/88196723/145411863-9e892922-4515-4a5f-9d30-40266a4203cf.png)
 
-The best model gives approx. 79% of accuracy. It performs well on almost dog images. The outputs for human images are also convincing.
+The best model gives approx. 79% of accuracy. It performs well on almost all dog images. The outputs for human images are also convincing.
 
 The main findings of the code can be found at the post available [here](https://medium.com/@Shiv_Shiv/check-out-your-face-resembles-which-dog-breed-a49caaae42).
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-The dataset was provided by Udacity as part of its "Data Scientist Nanodegree program". A LICENSE file is added in this repo to state clearly its licence.
+The dataset was provided by Udacity as part of its "Data Scientist Nanodegree program". A License file is available that state clearly its licence.
