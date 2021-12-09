@@ -17,7 +17,15 @@ This project uses Convolutional Neural Networks (CNNs)! In this project, I have 
 
 ### Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+This project requires Python and libraries used in Data Science and Deep Learning such as:
+
+1. numpy
+2. pandas
+3. matplotlib
+4. scikit-learn
+5. keras
+
+To easily check the code at the same time as the output, it is recommended to install Anaconda and Jupyter Notebook. To speed up training time, it is highly recommended to use GPU.
 
 ### Project Motivation<a name="motivation"></a>
 
@@ -36,8 +44,12 @@ There is 1 notebook available here to showcase work related to the above questio
 
 ### Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@Shiv_Shiv/what-should-you-do-to-earn-more-694638341f51).
+![image](https://user-images.githubusercontent.com/88196723/145411863-9e892922-4515-4a5f-9d30-40266a4203cf.png)
+
+The best model gives approx. 79% of accuracy. It performs well on almost dog images. The outputs for human images are also convincing.
+
+The main findings of the code can be found at the post available [here](https://medium.com/@Shiv_Shiv/check-out-your-face-resembles-which-dog-breed-a49caaae42).
 
 ### Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Stack overflow link available [here](https://insights.stackoverflow.com/survey/). Otherwise, feel free to use the code here as you would like! 
+The dataset was provided by Udacity as part of its "Data Scientist Nanodegree program". A LICENSE file is added in this repo to state clearly its licence.
